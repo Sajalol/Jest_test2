@@ -41,6 +41,15 @@
      test("turnNumber key exists", () => {
          expect("turnNumber" in game).toBe(true);
      });
+     test("Check if lastButton exists", () => {
+        expect("lastButton" in game).toBe(true);
+    });
+    test("check if turnInProgress exists", () => {
+        expect("turnInProgress" in game).toBe(true);
+    });
+    test("check if turnInProgress is false", () => {
+        expect("turnInProgress" in game).toBe(true);
+    });
  });
  
  describe("newGame works correctly", () => {
